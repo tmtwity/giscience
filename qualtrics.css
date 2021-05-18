@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'NationalBold';
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-Bold.eot");
+
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-Bold.woff2") format("woff2"), url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-Bold.woff") format("woff");
+   }
+
+@font-face {
+  font-family: 'NationalBoldItalic';
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-BoldItalic.eot");
+
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-BoldItalic.woff2") format("woff2"), url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-BoldItalic.woff") format("woff");
+   }
+
+@font-face {
+  font-family: 'NationalBook';
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-Book.eot");
+
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-Book.woff2") format("woff2"), url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-Book.woff") format("woff");
+   }
+
+@font-face {
+  font-family: 'NationalBookItalic';
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-BookItalic.eot");
+
+  src: url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-BookItalic.woff2") format("woff2"), url("https://cdn.auckland.ac.nz/aem/etc/designs/uoa-digital/clientlibs/css/base/fonts/NationalWeb-BookItalic.woff") format("woff");
+   }
+
+html, body {
+  font-family: 'NationalBook', sans-serif;
+  color: #4a4c4c; }
+
+h1 {
+  font-size: 36px;
+  font-family: 'NationalBold', sans-serif;
+  color: #4a4c4c;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1em;
+  font-size: 2.0736rem;
+  font-family: 'NationalBold', sans-serif; 
+  padding-top: 10px; }
+  @media (min-width: 75em) {
+    h1 {
+      font-size: 2.44141rem; } }
+  h1 a, h1 a:hover {
+    color: inherit; }
+
+h2 {
+  font-size: 1.728rem;
+  font-family: 'NationalBold', sans-serif; }
+  @media (min-width: 75em) {
+    h2 {
+      font-size: 1.95313rem; } }
+
+h3 {
+  font-size: 1.44rem;
+  font-family: 'NationalBold', sans-serif; }
+  @media (min-width: 75em) {
+    h3 {
+      font-size: 1.5625rem; } }
+
+h4 {
+  font-size: 1.2rem;
+  font-family: 'NationalBold', sans-serif; }
+  @media (min-width: 75em) {
+    h4 {
+      font-size: 1.25rem; } }
+	  
+p, .skin, .Skin label.QuestionText, .Skin .QuestionText {
+	font-size: 1.25rem;
+font-family: 'NationalBook', sans-serif;
+color: #4a4c4c; }
+
+title {
+	font-size: 36px;
+	font-family: 'NationalBold', sans-serif;
+	color: #00467f;
+	text-align: center;
+}
+
+.highlight {
+  background-color: #f2f2f2;
+  padding: 1.6rem;
+  display: block;
+  margin-bottom: 1rem; }
+  .highlight *:last-child {
+    margin-bottom: 0; }
+  .highlight a {
+    color: #005499;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 0px 0 #f2f2f2, -1px 0px 0 #f2f2f2, 2px 0 0 #f2f2f2, -2px 0 0 #f2f2f2;
+    background-image: linear-gradient(transparent 50%, #005499 50%);
+    background-repeat: repeat-x;
+    background-position: 0 92%;
+    background-size: 1px 2px;
+    outline: none; }
+    .highlight a:hover {
+      text-decoration: none;
+      text-shadow: 1px 0 0 #f2f2f2, -1px 0 0 #f2f2f2, 2px 0 0 #f2f2f2, -2px 0 0 #f2f2f2;
+      background-size: 1px 4px; }
+    .highlight a:focus {
+      background-color: rgba(0, 70, 127, 0.15);
+      text-shadow: none; }
+  @media (min-width: 48em) {
+    .highlight {
+      padding: 2.2rem; } }
+
+#NextButton {
+	background-color: #00467f;
+	color: #fff;
+	border: solid 2px #00467f;
+	border-radius: 1.7rem;
+	max-width: 388px;
+	padding: 0.75rem 4.16rem 0.75rem 2.22rem;
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+	text-align: left;
+	transition: 0.3s;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+	outline: none;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'NationalBold', sans-serif;
+	position: relative; }
+	.NextButton :hover {
+		background-color: transparent;
+		color: #00467f;
+		border: solid 2px #00467f;
+		outline: none; }
+
+
+.Skin .TE .SL .InputText, .Skin .TE .ML .InputText, .Skin .TE .ESTB .InputText, .Skin .TE .PW .InputText, .Skin .TE .FORM .InputText, .Skin .MC .TextEntryBox, .Skin input.TextEntryBox, .Skin .TE textarea, .Skin textarea, .Skin input[type="password"], .Skin input[type="text"], .Skin input[type="search"] {
+	display: block;
+	transition: 0.2s border;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #bec3c4;
+	outline: none;
+	padding: 0.5rem;
+	color: #000;
+	appearance: none;
+	background: #fff;
+	margin: 0;
+	line-height: inherit;
+	border-radius: 0;
+	font-family: 'NationalBook', sans-serif;
+	font-size: 1.25rem; }
+	.Skin .TE .SL .InputText:active, 
+	.Skin .TE .ML .InputText:active, 
+	.Skin .TE .ESTB .InputText:active, 
+	.Skin .TE .PW .InputText:active,
+	.Skin .TE .FORM .InputText:active,
+	.Skin .MC .TextEntryBox:active,
+	.Skin input.TextEntryBox:active,
+	.Skin .TE textarea:active,
+	.Skin textarea:active,
+	.Skin input[type="password"]:active,
+	.Skin input[type="text"]:active,
+	.Skin input[type="search"]:active {
+	border: 1px solid #007ac0; }
+
+.about {
+	display: block;
+    width: 80px;
+    height: 5px;
+    background: #00467f;
+    margin: 20px auto;
+}
